@@ -1,0 +1,29 @@
+# Build artifacts
+/target/
+/Cargo.lock.bak
+
+# Local cargo config (machine-specific paths, e.g. RUSTC override)
+/.cargo/
+
+# IDE
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Nix
+/result
+/result-*
+
+# Fuzz corpus (generated, may be large)
+/fuzz/corpus/
+/fuzz/artifacts/
+/fuzz/crash-*
+
+# Test outputs
+*.profraw

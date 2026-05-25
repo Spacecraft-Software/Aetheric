@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (c) 2026 Mohamed Hammad & Spacecraft Software
+
+[package]
+name = "aetheric-lumen"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+jiff = { workspace = true }
+anyhow = { workspace = true }
+
+[lints]
+workspace = true

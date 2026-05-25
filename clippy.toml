@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (c) 2026 Mohamed Hammad & Spacecraft Software
+
+# Per AE-IMPL-001 §10.1
+avoid-breaking-exported-api = false
+msrv = "1.78"

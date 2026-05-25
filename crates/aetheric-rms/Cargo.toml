@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (c) 2026 Mohamed Hammad & Spacecraft Software
+
+[package]
+name = "aetheric-rms"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "rms"
+path = "src/main.rs"
+
+[dependencies]
+clap = { workspace = true }
+anyhow = { workspace = true }
+tokio = { workspace = true }
+aetheric-orion = { path = "../aetheric-orion" }
+aetheric-lumen = { path = "../aetheric-lumen" }
+
+[dev-dependencies]
+assert_cmd = { workspace = true }
+
+[lints]
+workspace = true

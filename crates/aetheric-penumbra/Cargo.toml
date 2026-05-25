@@ -1,0 +1,21 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (c) 2026 Mohamed Hammad & Spacecraft Software
+
+[package]
+name = "aetheric-penumbra"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+crossterm = { workspace = true }
+ratatui = { workspace = true }
+tree-sitter = { workspace = true }
+aetheric-ipc-types = { path = "../aetheric-ipc-types" }
+anyhow = { workspace = true }
+
+[lints]
+workspace = true

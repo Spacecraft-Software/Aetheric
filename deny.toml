@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (c) 2026 Mohamed Hammad & Spacecraft Software
+
+[licenses]
+allow = [
+  "AGPL-3.0-or-later",
+  "MIT",
+  "Apache-2.0",
+  "ISC",
+  "Unicode-DFS-2016",
+  "OFL-1.1",
+  "BSD-2-Clause",
+  "BSD-3-Clause",
+  "Zlib",
+  "CC0-1.0",
+  "LGPL-3.0-or-later",
+]
+deny = ["GPL-2.0", "LGPL-2.0", "AGPL-3.0"]
+
+[advisories]
+vulnerability = "deny"
+unsound = "deny"
+unmaintained = "warn"
+
+[bans]
+deny = [{ crate = "tokio", wrappers = ["aetheric-single-screw"] }]
